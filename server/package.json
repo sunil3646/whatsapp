@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp-clone-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "process": "node processor.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "mongoose": "^7.8.7",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

@@ -1,0 +1,43 @@
+/* index.css */
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ededed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  background-color: #ededed;
+}
+
+.sidebar {
+  width: 360px;
+  background: white;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  background: #f7f7f7;
+}
+
+.input-bar {
+  border-top: 1px solid #ddd;
+  padding: 10px;
+  background: white;
+}
